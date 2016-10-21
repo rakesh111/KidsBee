@@ -15,6 +15,14 @@
 		149ADFCE1DB8ACA1004FE7ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 149ADFCC1DB8ACA1004FE7ED /* LaunchScreen.storyboard */; };
 		149ADFD91DB8ACA1004FE7ED /* KidsBeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149ADFD81DB8ACA1004FE7ED /* KidsBeeTests.swift */; };
 		149ADFE41DB8ACA1004FE7ED /* KidsBeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149ADFE31DB8ACA1004FE7ED /* KidsBeeUITests.swift */; };
+		149ADFF31DB8B4E5004FE7ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149ADFF11DB8B4E5004FE7ED /* HomeViewController.swift */; };
+		149ADFF41DB8B4E5004FE7ED /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149ADFF21DB8B4E5004FE7ED /* HomeViewController.xib */; };
+		149ADFF71DB8E858004FE7ED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149ADFF51DB8E858004FE7ED /* FirstViewController.swift */; };
+		149ADFF81DB8E858004FE7ED /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149ADFF61DB8E858004FE7ED /* FirstViewController.xib */; };
+		149ADFFB1DB8E86D004FE7ED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149ADFF91DB8E86D004FE7ED /* SecondViewController.swift */; };
+		149ADFFC1DB8E86D004FE7ED /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149ADFFA1DB8E86D004FE7ED /* SecondViewController.xib */; };
+		149ADFFF1DB8EA24004FE7ED /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149ADFFD1DB8EA24004FE7ED /* HomeTableViewCell.swift */; };
+		149AE0001DB8EA24004FE7ED /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149ADFFE1DB8EA24004FE7ED /* HomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		149ADFDF1DB8ACA1004FE7ED /* KidsBeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KidsBeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		149ADFE31DB8ACA1004FE7ED /* KidsBeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsBeeUITests.swift; sourceTree = "<group>"; };
 		149ADFE51DB8ACA1004FE7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149ADFF11DB8B4E5004FE7ED /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		149ADFF21DB8B4E5004FE7ED /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		149ADFF51DB8E858004FE7ED /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		149ADFF61DB8E858004FE7ED /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		149ADFF91DB8E86D004FE7ED /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		149ADFFA1DB8E86D004FE7ED /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		149ADFFD1DB8EA24004FE7ED /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		149ADFFE1DB8EA24004FE7ED /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,14 @@
 			children = (
 				149ADFC01DB8ACA1004FE7ED /* AppDelegate.swift */,
 				149ADFC21DB8ACA1004FE7ED /* ViewController.swift */,
+				149ADFF11DB8B4E5004FE7ED /* HomeViewController.swift */,
+				149ADFF21DB8B4E5004FE7ED /* HomeViewController.xib */,
+				149ADFFD1DB8EA24004FE7ED /* HomeTableViewCell.swift */,
+				149ADFFE1DB8EA24004FE7ED /* HomeTableViewCell.xib */,
+				149ADFF51DB8E858004FE7ED /* FirstViewController.swift */,
+				149ADFF61DB8E858004FE7ED /* FirstViewController.xib */,
+				149ADFF91DB8E86D004FE7ED /* SecondViewController.swift */,
+				149ADFFA1DB8E86D004FE7ED /* SecondViewController.xib */,
 				149ADFC41DB8ACA1004FE7ED /* Main.storyboard */,
 				149ADFCA1DB8ACA1004FE7ED /* Assets.xcassets */,
 				149ADFCC1DB8ACA1004FE7ED /* LaunchScreen.storyboard */,
@@ -233,8 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				149ADFCE1DB8ACA1004FE7ED /* LaunchScreen.storyboard in Resources */,
+				149AE0001DB8EA24004FE7ED /* HomeTableViewCell.xib in Resources */,
+				149ADFF81DB8E858004FE7ED /* FirstViewController.xib in Resources */,
+				149ADFFC1DB8E86D004FE7ED /* SecondViewController.xib in Resources */,
 				149ADFCB1DB8ACA1004FE7ED /* Assets.xcassets in Resources */,
 				149ADFC61DB8ACA1004FE7ED /* Main.storyboard in Resources */,
+				149ADFF41DB8B4E5004FE7ED /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				149ADFFB1DB8E86D004FE7ED /* SecondViewController.swift in Sources */,
+				149ADFF71DB8E858004FE7ED /* FirstViewController.swift in Sources */,
+				149ADFFF1DB8EA24004FE7ED /* HomeTableViewCell.swift in Sources */,
 				149ADFC91DB8ACA1004FE7ED /* KidsBee.xcdatamodeld in Sources */,
 				149ADFC31DB8ACA1004FE7ED /* ViewController.swift in Sources */,
 				149ADFC11DB8ACA1004FE7ED /* AppDelegate.swift in Sources */,
+				149ADFF31DB8B4E5004FE7ED /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +520,7 @@
 				149ADFEA1DB8ACA1004FE7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149ADFEB1DB8ACA1004FE7ED /* Build configuration list for PBXNativeTarget "KidsBeeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +529,7 @@
 				149ADFED1DB8ACA1004FE7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		149ADFEE1DB8ACA1004FE7ED /* Build configuration list for PBXNativeTarget "KidsBeeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +538,7 @@
 				149ADFF01DB8ACA1004FE7ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
